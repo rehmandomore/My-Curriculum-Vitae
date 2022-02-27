@@ -1,0 +1,15 @@
+{
+  "name": "tailwind3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tailwindcss -i ./tailwind.css -o ./src/styles/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.7.2"
+  }
+}
