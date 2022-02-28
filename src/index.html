@@ -274,7 +274,22 @@
         </div>
       </div>
     </section>
+    <!-- Here -->
+<!-- component -->
+
     <script>
+      window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.backgroundColor = "black";
+  } else {
+    document.getElementById("header").style.backgroundColor = "rgba(0,0,0,0.2)";
+  }
+}
+// Dropdown 
+document.getElementById("menu-button").addEventListener("click", open_close);
+
 var menuState = 0
 function open_close() {
   if(menuState === 0){
